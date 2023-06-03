@@ -1,0 +1,56 @@
+#include<stdio.h>
+int main()
+{
+   int i=1;
+do
+{
+printf("\nhello%d",i++);
+}
+while(i<=10);
+do
+{
+printf("\n\thello%d",i++);
+}
+while(i<=20);
+do
+{
+printf("\n\t\thello%d",i++);
+}
+while(i<=30);
+do
+{
+printf("\n\t\t\thello%d",i++);
+}
+while(i<=40);
+do
+{
+printf("\n\t\t\t\t\thello%d",i++);
+}
+while(i<=50);
+do
+{
+printf("\n\t\t\t\thello%d",i--);
+}
+while(i>=41);
+do
+{
+printf("\n\t\t\thello%d",i--);
+}
+while(i>=31);
+do
+{
+printf("\n\t\thello%d",i--);
+}
+while(i>=21);
+do
+{
+printf("\n\thello%d",i--);
+}
+while(i>=11);
+do
+{
+printf("\nhello%d",i--);
+}
+while(i>=1);
+return 0;
+ }
